@@ -1,7 +1,7 @@
-/frontend/android linguist-vendored
-/frontend/assets linguist-vendored
-/frontend/ios linguist-vendored
-/frontend/linux linguist-vendored
-/frontend/macos linguist-vendored
-/frontend/web linguist-vendored
-/frontend/windows linguist-vendored
+/frontend/android/* linguist-vendored
+/frontend/assets/* linguist-vendored
+/frontend/ios/* linguist-vendored
+/frontend/linux/* linguist-vendored
+/frontend/macos/* linguist-vendored
+/frontend/web/* linguist-vendored
+/frontend/windows/* linguist-vendored
