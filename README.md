@@ -21,6 +21,7 @@ to install the dependencies. Using Conda or something similar is recommeneded.
 * Run `flutter pub get` in the root of the frontend folder to install the required dependencies.
 * Build the front end from source or install the appended release .apk.
 * The front end was only tested on Android, although, it should be able to run on other platforms supported by flutter, but it may need some tweaks
+* The default ip adress for both the frontend and the backend is `192.168.12.1`, you can change it in the source code to suit your needs.
 
 # Cite us
 * If you use our project in your work, please cite us :
