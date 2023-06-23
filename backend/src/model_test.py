@@ -1,5 +1,5 @@
-from Data_Loading_v2 import test_dataloader
-from Squeezeformer import MySqueezeformer
+from data_loading import test_dataloader
+from squeezeformer import MySqueezeformer
 from torchmetrics.functional import word_error_rate,char_error_rate
 from torchaudio.models.decoder import ctc_decoder
 import torch

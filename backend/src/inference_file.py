@@ -1,7 +1,6 @@
-from Squeezeformer import MySqueezeformer
+from squeezeformer import MySqueezeformer
 from torchaudio.models.decoder import ctc_decoder
-from torchaudio.transforms import MelSpectrogram
-from torch import log,mean,tensor
+from torch import tensor
 import torch
 import sentencepiece as spm
 from torchaudio import load
