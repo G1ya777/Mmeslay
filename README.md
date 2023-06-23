@@ -12,7 +12,7 @@
 # Prerequisites
 * Run
 `pip install Cython` then `pip install -r requirements.txt`
-to install the dependencies.
+to install the dependencies. Using Conda or something similar is recommeneded.
 * Run `flutter pub get` in the root of the frontend folder to install the required dependencies.
 * The app was tested on Python 3.9, Flutter 3.10 and Dart 3.0.
 
