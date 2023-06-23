@@ -1,7 +1,3 @@
-/frontend/android/* linguist-vendored
-/frontend/assets/* linguist-vendored
-/frontend/ios/* linguist-vendored
-/frontend/linux/* linguist-vendored
-/frontend/macos/* linguist-vendored
-/frontend/web/* linguist-vendored
-/frontend/windows/* linguist-vendored
+* linguist-vendored
+*.dart linguist-vendored=false
+*.py linguist-vendored=false
