@@ -13,8 +13,24 @@
 * Run
 `pip install Cython` then `pip install -r requirements.txt`
 to install the dependencies.
-* The app was tested on python 3.9.
+* Run `flutter pub get` in the root of the frontend folder to install the required dependencies.
+* The app was tested on Python 3.9, Flutter 3.10 and Dart 3.0.
 
 # How to use
 * To start the backend, cd into the backend folder and run `python src/flask_server.py`
 * Run `flutter pub get` in the root of the frontend folder to install the required dependencies.
+* Build the front end from source or install the appended release .apk.
+* The front end was only tested on Android, although, it should be able to run on other platforms supported by flutter, but it may need some tweaks
+
+# Cite us
+* If you use our project in your work, please cite us :
+<pre>
+<code>
+@mastersthesis{Mmeslay,<br>
+  author  = {Aomer Gaya Ouldali},<br>
+  school  = {Université A. Mira de Béjaïa},<br>
+  title   = {Système de reconnaissance de la parole appliqué à la langue Tamazight},<br>
+  year    = {2023}<br>
+}
+</code>
+</pre>
