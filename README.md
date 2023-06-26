@@ -1,5 +1,5 @@
 # Mmeslay
-* An Automatic Speech Recognition System for the Kabyle language.
+* An Automatic Speech Recognition System for the Kabyle language with a flutter Frontend.
 * This was created by training the Squeezeformer-XS model using the Common Voice (the subset in kabyle language).
 * The model was trained, validated and tested on a custom split of the dataset.
 * A language model was also trained on a text corpus composed of sentences collected from various sources, such as Tatoeba and https://github.com/MohammedBelkacem/Kabyletexts, using KenLM.
