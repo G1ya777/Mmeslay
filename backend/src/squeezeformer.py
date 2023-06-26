@@ -164,7 +164,7 @@ class MySqueezeformer(LightningModule):
         checkpoint = {
             # 'model_state_dict': model.state_dict(),
             'optimizer_state_dict': self.optimizer.state_dict(),
-            'scheduler_state_dict': self.scheduler.state_dict()
+            #'scheduler_state_dict': self.scheduler.state_dict()
         }
         checkpoint_dir = './checkpoints_vZ2/sched_ckpt/'
         os.makedirs(checkpoint_dir, exist_ok=True)
@@ -185,7 +185,7 @@ class MySqueezeformer(LightningModule):
 
         return {
             'optimizer': self.optimizer,
-            'lr_scheduler': self.scheduler,
+            #'lr_scheduler': self.scheduler,
         }
     
 
