@@ -106,11 +106,6 @@ test_data = AudioDataset(X_test,y_test)
 test_dataloader = DataLoader(test_data, batch_size=4,num_workers=4, collate_fn=collate_fn)
 
 
-# import multiprocessing as mp
 
-# if __name__ == '__main__':
-#     mp.set_start_method('spawn')
 # for batch_idx, batch_data in enumerate(train_dataloader):
-#     # print()
-#     # break
 #     pass
