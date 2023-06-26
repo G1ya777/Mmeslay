@@ -29,7 +29,6 @@ engine='c',
 low_memory=False,)
 
 
-# X_train = train["path, path"]
 X_train = train["path"]
 y_train = train["sentence"]
 X_val = val["path"]
