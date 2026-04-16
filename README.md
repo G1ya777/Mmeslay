@@ -1,6 +1,7 @@
 # 🎙️ Mmeslay
 
 > An Automatic Speech Recognition System for the Kabyle language with a Flutter frontend.
+>  - Live Demo Available at <https://huggingface.co/spaces/g1ya/Mmeslay>
 
 ---
 
